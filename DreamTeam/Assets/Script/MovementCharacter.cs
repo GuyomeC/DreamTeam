@@ -3,6 +3,8 @@ using UnityEngine.Tilemaps;
 
 public class MovementCharacter : MonoBehaviour
 {
+
+    [SerializeField] private Animator animatotor;
     public Tilemap tilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public float moveSpeed = 5f;  // Vitesse de déplacement
     private Vector3Int playerGridPosition;  // Position du joueur dans la grille
@@ -17,6 +19,10 @@ public class MovementCharacter : MonoBehaviour
     {
         // Appeler la fonction pour gérer les mouvements du joueur
         HandleMovement();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animatotor.SetTrigger("ActiveVent");
+        }
     }
 
     void HandleMovement()
@@ -26,13 +32,26 @@ public class MovementCharacter : MonoBehaviour
 
         // Gérer les entrées de clavier (par exemple, flèches directionnelles ou ZQSD)
         if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
             newGridPosition += new Vector3Int(0, 1, 0);  // Déplacement vers le haut
+            animatotor.SetTrigger("Action");
+        }
+
         else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
             newGridPosition += new Vector3Int(0, -1, 0);  // Déplacement vers le bas
+            animatotor.SetTrigger("Action");
+        }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
             newGridPosition += new Vector3Int(-1, 0, 0);  // Déplacement vers la gauche
+            animatotor.SetTrigger("Action");
+        }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
             newGridPosition += new Vector3Int(1, 0, 0);  // Déplacement vers la droite
+            animatotor.SetTrigger("Action");
+        }
 
         // Vérifier si la nouvelle position est valide (tuile existante et traversable)
         TileBase tileAtNewPosition = tilemap.GetTile(newGridPosition);
