@@ -1,72 +1,57 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class MovementCharacter : MonoBehaviour
 {
+    public Tilemap tilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
+    public float moveSpeed = 5f;  // Vitesse de déplacement
+    private Vector3Int playerGridPosition;  // Position du joueur dans la grille
 
-    public Rigidbody2D rb;
-    [SerializeField] private Animator animatotor;
-    public float speed = 5.0f; // Vitesse de déplacement
-    private Vector2 moveDirection;
-    private Vector2 movePosition;
-
-    // Start is called before the first frame update
     void Start()
     {
-
+        // Initialiser la position du joueur sur la grille au début du jeu
+        playerGridPosition = tilemap.WorldToCell(transform.position);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        ProcessInputs();
-        //if (Input.GetKeyDown(KeyCode.Z))
-        //{
-        //    Vector3 newPosition = targetPosition + new Vector3(0, 1, 0);
-        //    if (CheckTagAtPosition(newPosition, "Sol"))
-        //    {
-        //        targetPosition = newPosition;
-        //    }
-        //}
-
-        //transform.position = Vector3.Lerp(transform.position, targetPosition, speed * Time.deltaTime);
+        // Appeler la fonction pour gérer les mouvements du joueur
+        HandleMovement();
     }
 
-    void FixedUpdate()
+    void HandleMovement()
     {
-        Move();
-    }
+        // Variables pour suivre le déplacement du joueur
+        Vector3Int newGridPosition = playerGridPosition;
 
-    void ProcessInputs()
-    {
-        bool moveYplus = Input.GetKeyDown(KeyCode.Z);
-        bool moveYmoins = Input.GetKeyDown(KeyCode.S);
-        bool moveXmoins = Input.GetKeyDown(KeyCode.Q);
-        bool moveXplus = Input.GetKeyDown(KeyCode.D);
+        // Gérer les entrées de clavier (par exemple, flèches directionnelles ou ZQSD)
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+            newGridPosition += new Vector3Int(0, 1, 0);  // Déplacement vers le haut
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+            newGridPosition += new Vector3Int(0, -1, 0);  // Déplacement vers le bas
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+            newGridPosition += new Vector3Int(-1, 0, 0);  // Déplacement vers la gauche
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+            newGridPosition += new Vector3Int(1, 0, 0);  // Déplacement vers la droite
 
-        if (moveYplus)
+        // Vérifier si la nouvelle position est valide (tuile existante et traversable)
+        TileBase tileAtNewPosition = tilemap.GetTile(newGridPosition);
+
+        if (tileAtNewPosition != null)  // Si la tuile existe
         {
-            movePosition = new Vector2(0, 1);
-            movePosition = new Vector2(0, 1);
+            // Convertir la position de la grille en position du monde
+            Vector3 newWorldPosition = tilemap.CellToWorld(newGridPosition);
+
+            // Déplacer le joueur
+            transform.position = newWorldPosition;
+
+            // Mettre à jour la position du joueur dans la grille
+            playerGridPosition = newGridPosition;
+        }
+        else
+        {
+            // Si la case est vide ou non traversable, on ne déplace pas le joueur
+            Debug.Log("Tuile non traversable ou inexistante !");
         }
     }
-
-    private void Move()
-    {
-        rb.velocity = new Vector2(moveDirection.x * speed, moveDirection.y * speed);
-    }
-
-    //bool CheckTagAtPosition(Vector3 position, string tag)
-    //{
-    //    RaycastHit hit;
-    //    if (Physics.Raycast(position, Vector3.down, out hit))
-    //    {
-    //        if (hit.collider.CompareTag(tag))
-    //        {
-    //            return true;
-    //        }
-    //    }
-    //    return false;
-    //}
 }
