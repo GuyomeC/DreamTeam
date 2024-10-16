@@ -8,13 +8,13 @@ public class MovementCharacter : MonoBehaviour
     public Rigidbody2D rb;
     [SerializeField] private Animator animatotor;
     public float speed = 5.0f; // Vitesse de déplacement
-    private Vector3 targetPosition;
     private Vector2 moveDirection;
+    private Vector2 movePosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        targetPosition = transform.position;
+
     }
 
     // Update is called once per frame
@@ -40,10 +40,16 @@ public class MovementCharacter : MonoBehaviour
 
     void ProcessInputs()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        bool moveYplus = Input.GetKeyDown(KeyCode.Z);
+        bool moveYmoins = Input.GetKeyDown(KeyCode.S);
+        bool moveXmoins = Input.GetKeyDown(KeyCode.Q);
+        bool moveXplus = Input.GetKeyDown(KeyCode.D);
 
-        moveDirection = new Vector2(moveX, moveY);
+        if (moveYplus)
+        {
+            movePosition = new Vector2(0, 1);
+            movePosition = new Vector2(0, 1);
+        }
     }
 
     private void Move()
