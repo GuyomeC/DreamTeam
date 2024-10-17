@@ -12,37 +12,30 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        // Lancer la séquence de spawn dès le début (ou tu peux appeler SpawnEnemy() quand tu veux)
         StartCoroutine(SpawnEnemy());
     }
 
     IEnumerator SpawnEnemy()
     {
-        // Étape 1 : Afficher le panneau d'attention
-        attentionSign = Instantiate(attentionSignPrefab, transform.position, Quaternion.identity);
+        Vector3 spawnPosition = new Vector3(transform.position.x + 2, transform.position.y, transform.position.z);
+        attentionSign = Instantiate(attentionSignPrefab, spawnPosition, Quaternion.identity);
 
-        // Attendre 1 seconde (ou la durée définie dans spawnDelay)
         yield return new WaitForSeconds(spawnDelay);
-
-        // Détruire le panneau d'attention après 1 seconde
         Destroy(attentionSign);
-
-        // Étape 2 : Faire apparaître l'ennemi
         GameObject spawnedEnemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
 
-        // Lancer le mouvement de l'ennemi
         StartCoroutine(MoveEnemy(spawnedEnemy));
     }
 
     IEnumerator MoveEnemy(GameObject enemy)
     {
-        // Tant que l'ennemi existe, il se déplace de gauche à droite
         while (enemy != null)
         {
-            // Déplacer l'ennemi vers la droite
             enemy.transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-
-            // Attendre la prochaine frame
+            if (enemy.transform.position.x >= 11)
+            {
+                Destroy(enemy);
+            }
             yield return null;
         }
     }
