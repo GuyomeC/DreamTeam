@@ -1,13 +1,15 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class MovementCharacter : MonoBehaviour
 {
-
+    public Animator animatotor;
     public Tilemap tilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public Tilemap cloudtilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public float moveSpeed = 5f;  // Vitesse de déplacement
     private Vector3Int playerGridPosition;  // Position du joueur dans la grille
+    public float destructionDelay = 1f;
 
     void Start()
     {
@@ -61,6 +63,7 @@ public class MovementCharacter : MonoBehaviour
         else
         {
             tileAtNewPosition = cloudtilemap.GetTile(newGridPosition);
+
             if (tileAtNewPosition != null)  // Si la tuile existe
             {
                 // Convertir la position de la grille en position du monde
@@ -76,7 +79,33 @@ public class MovementCharacter : MonoBehaviour
             {
                 // Si la case est vide ou non traversable, on ne déplace pas le joueur
                 Debug.Log("Tuile non traversable ou inexistante !");
+                MoveToNewPosition(tilemap, newGridPosition);  // Déplacer sur la tuile vide
+                StartCoroutine(DestroyAfterDelay());  // Détruire après un délai
             }
         }
+    }
+
+    void MoveToNewPosition(Tilemap map, Vector3Int newGridPosition)
+    {
+        // Convertir la position de la grille en position du monde
+        Vector3 newWorldPosition = map.CellToWorld(newGridPosition);
+
+        // Déplacer le joueur
+        transform.position = newWorldPosition;
+
+        // Mettre à jour la position du joueur dans la grille
+        playerGridPosition = newGridPosition;
+    }
+
+    IEnumerator DestroyAfterDelay()
+    {
+        // Optionnel : jouer une animation ou déclencher une action avant la destruction
+        animatotor.SetTrigger("Dead");
+
+        // Attendre un certain temps avant la destruction
+        yield return new WaitForSeconds(destructionDelay);
+
+        // Détruire le joueur
+        Destroy(gameObject);
     }
 }

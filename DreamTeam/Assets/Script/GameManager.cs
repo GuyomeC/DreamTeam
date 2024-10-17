@@ -8,17 +8,26 @@ public class GameManager : MonoBehaviour
 {
 
     public float currentScore = 0f;
+    public float bestScore;
     [SerializeField] private TextMeshProUGUI scoreUI;
-
+    public bool IsPlaying;
 
     void Start()
     {
-        
+        IsPlaying = true;
     }
 
     void Update()
     {
-        currentScore += Time.deltaTime;
+        if (IsPlaying)
+        {
+            currentScore += Time.deltaTime;
+        }
+        else
+        {
+            bestScore = currentScore;
+            currentScore = 0;
+        }
     }
 
     public string PrettyScore()
