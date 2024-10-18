@@ -8,6 +8,7 @@ public class MovementCharacter : MonoBehaviour
     public GameObject chara;
     public Tilemap tilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public Tilemap cloudtilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
+    public Tilemap cloudtilemapmouvante;  // Référence à la Tilemap (à lier dans l'Inspector)
     public float moveSpeed = 5f;  // Vitesse de déplacement
     private Vector3Int playerGridPosition;  // Position du joueur dans la grille
     public float destructionDelay = 1f;
@@ -82,10 +83,26 @@ public class MovementCharacter : MonoBehaviour
             }
             else
             {
-                // Si la case est vide ou non traversable, on ne déplace pas le joueur
-                Debug.Log("Tuile non traversable ou inexistante !");
-                MoveToNewPosition(tilemap, newGridPosition);  // Déplacer sur la tuile vide
-                StartCoroutine(DestroyAfterDelay());  // Détruire après un délai
+                tileAtNewPosition = cloudtilemapmouvante.GetTile(newGridPosition);
+
+                if (tileAtNewPosition != null)  // Si la tuile existe
+                {
+                    // Convertir la position de la grille en position du monde
+                    Vector3 newWorldPosition = cloudtilemapmouvante.CellToWorld(newGridPosition);
+
+                    // Déplacer le joueur
+                    transform.position = newWorldPosition;
+
+                    // Mettre à jour la position du joueur dans la grille
+                    playerGridPosition = newGridPosition;
+                }
+                else
+                {
+                    // Si la case est vide ou non traversable, on ne déplace pas le joueur
+                    Debug.Log("Tuile non traversable ou inexistante !");
+                    MoveToNewPosition(tilemap, newGridPosition);  // Déplacer sur la tuile vide
+                    StartCoroutine(DestroyAfterDelay());  // Détruire après un délai
+                }
             }
         }
     }
@@ -130,6 +147,7 @@ public class MovementCharacter : MonoBehaviour
     {
         // Convertir la position de la grille en position du monde
         Vector3 newWorldPosition = map.CellToWorld(newGridPosition);
+        animatotor.SetTrigger("Jump");
 
         // Déplacer le joueur
         transform.position = newWorldPosition;

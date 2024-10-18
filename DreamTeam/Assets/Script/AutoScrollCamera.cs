@@ -10,19 +10,11 @@ public class AutoScrollCamera : MonoBehaviour
     {
         Vector3 newPosition = transform.position;
 
-        // Si on veut scroller horizontalement
-        if (scrollHorizontally)
-        {
-            newPosition.x += scrollSpeed * Time.deltaTime;
-        }
-
-        // Si on veut scroller verticalement
-        if (scrollVertically)
+        if (scrollVertically && GameManager.Instance.IsPlaying)
         {
             newPosition.y += scrollSpeed * Time.deltaTime;
         }
 
-        // Met à jour la position de la caméra
         transform.position = newPosition;
     }
 }

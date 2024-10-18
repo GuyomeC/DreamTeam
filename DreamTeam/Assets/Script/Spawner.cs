@@ -34,12 +34,15 @@ public class Spawner : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("StartSpawnEnemy", 0f, UnityEngine.Random.Range(minInvokeDelay, maxInvokeDelay));
+
     }
 
     void Update()
     {
-        
+        if(GameManager.Instance.currentScore >= 25)
+        {
+            InvokeRepeating("StartSpawnEnemy", 0f, UnityEngine.Random.Range(minInvokeDelay, maxInvokeDelay));
+        }
     }
 
     void StartSpawnEnemy()
@@ -92,12 +95,15 @@ public class Spawner : MonoBehaviour
             yield return null;
         }
     }
-    
+
     IEnumerator Wind(GameObject enemy)
     {
-        animator.SetTrigger("ActiveVent");  
+        Animator childRigidbody = enemy.GetComponentInChildren<Animator>();
+
+        childRigidbody.SetTrigger("ActiveVent");
         yield return new WaitForSeconds(1);
         Destroy(enemy);
         alreadySpawn = false;
     }
+
 }
