@@ -10,10 +10,22 @@ public class PlayerOnPlatform : MonoBehaviour
         originalParent = transform.parent;
     }
 
+    private void Update()
+    {
+        originalParent = transform.parent;
+
+    }
+
     // Lorsque le personnage entre en contact avec la plateforme
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("MovingPlatform"))
+        {
+            // On attache le personnage à la plateforme
+            transform.parent = collision.transform;
+        }
+        
+        if (collision.gameObject.CompareTag("MovingPlatform2"))
         {
             // On attache le personnage à la plateforme
             transform.parent = collision.transform;
@@ -26,6 +38,12 @@ public class PlayerOnPlatform : MonoBehaviour
         if (collision.gameObject.CompareTag("MovingPlatform"))
         {
             // On le détache de la plateforme et revient à l'état normal
+            transform.parent = originalParent;
+        }
+
+        if (collision.gameObject.CompareTag("MovingPlatform2"))
+        {
+            // On attache le personnage à la plateforme
             transform.parent = originalParent;
         }
     }

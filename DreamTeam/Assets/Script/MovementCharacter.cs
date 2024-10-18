@@ -4,14 +4,30 @@ using UnityEngine.Tilemaps;
 
 public class MovementCharacter : MonoBehaviour
 {
+    public static MovementCharacter Instance { get; private set; }
+
+
     public Animator animatotor;
     public GameObject chara;
     public Tilemap tilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public Tilemap cloudtilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public Tilemap cloudtilemapmouvante;  // Référence à la Tilemap (à lier dans l'Inspector)
+    public Tilemap cloudtilemapmouvante2;  // Référence à la Tilemap (à lier dans l'Inspector)
     public float moveSpeed = 5f;  // Vitesse de déplacement
-    private Vector3Int playerGridPosition;  // Position du joueur dans la grille
+    public Vector3Int playerGridPosition;  // Position du joueur dans la grille
     public float destructionDelay = 1f;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
@@ -98,10 +114,26 @@ public class MovementCharacter : MonoBehaviour
                 }
                 else
                 {
-                    // Si la case est vide ou non traversable, on ne déplace pas le joueur
-                    Debug.Log("Tuile non traversable ou inexistante !");
-                    MoveToNewPosition(tilemap, newGridPosition);  // Déplacer sur la tuile vide
-                    StartCoroutine(DestroyAfterDelay());  // Détruire après un délai
+                    tileAtNewPosition = cloudtilemapmouvante2.GetTile(newGridPosition);
+
+                    if (tileAtNewPosition != null)  // Si la tuile existe
+                    {
+                        // Convertir la position de la grille en position du monde
+                        Vector3 newWorldPosition = cloudtilemapmouvante2.CellToWorld(newGridPosition);
+
+                        // Déplacer le joueur
+                        transform.position = newWorldPosition;
+
+                        // Mettre à jour la position du joueur dans la grille
+                        playerGridPosition = newGridPosition;
+                    }
+                    else
+                    {
+                        // Si la case est vide ou non traversable, on ne déplace pas le joueur
+                        Debug.Log("Tuile non traversable ou inexistante !");
+                        MoveToNewPosition(tilemap, newGridPosition);  // Déplacer sur la tuile vide
+                        StartCoroutine(DestroyAfterDelay());  // Détruire après un délai
+                    }
                 }
             }
         }
