@@ -5,6 +5,7 @@ using UnityEngine.Tilemaps;
 public class MovementCharacter : MonoBehaviour
 {
     public Animator animatotor;
+    public GameObject chara;
     public Tilemap tilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public Tilemap cloudtilemap;  // Référence à la Tilemap (à lier dans l'Inspector)
     public float moveSpeed = 5f;  // Vitesse de déplacement
@@ -32,18 +33,22 @@ public class MovementCharacter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             newGridPosition += new Vector3Int(0, 1, 0);  // Déplacement vers le haut
+            chara.transform.rotation = Quaternion.Euler(0, 0, 0);
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             newGridPosition += new Vector3Int(0, -1, 0);  // Déplacement vers le bas
+            chara.transform.rotation = Quaternion.Euler(0, 0, 180);
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             newGridPosition += new Vector3Int(-1, 0, 0);  // Déplacement vers la gauche
+            chara.transform.rotation = Quaternion.Euler(0, 0, 90);
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             newGridPosition += new Vector3Int(1, 0, 0);  // Déplacement vers la droite
+            chara.transform.rotation = Quaternion.Euler(0, 0, -90);
         }
 
         // Vérifier si la nouvelle position est valide (tuile existante et traversable)
@@ -87,7 +92,7 @@ public class MovementCharacter : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Bird"))
+        if (other.CompareTag("Bird") || other.CompareTag("Vent"))
         {
             Vector3Int newGridPosition = playerGridPosition;
             newGridPosition += new Vector3Int(1, 0, 0);
@@ -117,6 +122,7 @@ public class MovementCharacter : MonoBehaviour
                 }
             }
             Destroy(other.gameObject);
+            Spawner.Instance.alreadySpawn = false;
         }
     }
 

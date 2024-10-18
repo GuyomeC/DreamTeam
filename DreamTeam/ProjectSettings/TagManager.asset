@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Sol
   - GameZone
+  - Bird
+  - Vent
   layers:
   - Default
   - TransparentFX
@@ -45,4 +47,10 @@ TagManager:
     locked: 0
   - name: Cloud
     uniqueID: 135592307
+    locked: 0
+  - name: oiseau/vent
+    uniqueID: 3555945303
+    locked: 0
+  - name: perso
+    uniqueID: 3109478141
     locked: 0
