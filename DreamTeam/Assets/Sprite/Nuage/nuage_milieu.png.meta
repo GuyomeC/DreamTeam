@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,3787 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: nuage_milieu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a412e84c3fd524d9b1be2c3134a157
+      internalID: 227724034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d074289f40a104b90fe80ccfa93355
+      internalID: -386862011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8e099d09391524a8f77384ec00bb8c
+      internalID: 1820212045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da641427b1e76242b6ef5412993705c
+      internalID: 1535405609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_4
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b3f93b1f861094291ede55d1bed0c7
+      internalID: 476121465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4075b28344a281840bad71df92fa9438
+      internalID: 874721577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ed9bd8bad009b4f9430082b5f0a3e7
+      internalID: -646366154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_7
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee860afcbf9c73408ce2ca106a34a84
+      internalID: 421473794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa42774b4bf54e449b2b70412f85d7a7
+      internalID: -1558025128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_9
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5eedcdc17099a4a8ac010ad2fc89c3
+      internalID: -33676657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_10
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44f20d6543b27847a0745f6ca4d42ac
+      internalID: -904215082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_11
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def2abe7ffe48d418bc81216cc415fc
+      internalID: -512966645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_12
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2421f8df462d896449361bd1ad711d21
+      internalID: 963530448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9191cdccc6cd140b1b08d43049e6aa
+      internalID: 1212897124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_14
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e688e4fbe97c279419adbca1860f2528
+      internalID: -200037043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_15
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7661181103d8b4eb99f3797f63fd9c
+      internalID: 1357408616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_16
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3511a0afa9bffa349a33f24d17a86606
+      internalID: 985603729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_17
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 974
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db703f3dd1f554091783c6a3daea78
+      internalID: -1532824315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446cbfb745468e84398de3a51d732ac3
+      internalID: -1855403834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9357f4eb463d98a48802d66476a1f54c
+      internalID: -1786428250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a6216ec5683e347b46a68cbe6a078e
+      internalID: -1511745888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_21
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a796a214add0f409b2a97761283d7d
+      internalID: 1124019504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_22
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2077b4a510dfd104dbeb4e2c5142d567
+      internalID: 1604164079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_23
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14778b4aed592e40b5aa5bfa1df7bb5
+      internalID: 1799488070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_24
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9558a34a929051e4e918e67e31576e25
+      internalID: -1490945239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_25
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717cc46f1b35b4541acc54d73c0d1101
+      internalID: -226262764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_26
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b8036a15dec6748b4581e121e64dcb
+      internalID: 2288635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_27
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6dd3cd7e8b42b4fb018015e71eecbb
+      internalID: -1268256051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_28
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6157bf647044a4d9673a1b7fbba54e
+      internalID: 1761451584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_29
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995e2b72daa094f428c7cf1646573301
+      internalID: 1258281126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_30
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630de419a8d56404db746622872e76de
+      internalID: 965951933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_31
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51f2774efea6ef428ad3db1fc640024
+      internalID: 434047529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_32
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c19aceca356c1e43b7d0d2524b15acd
+      internalID: 1135893621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_33
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cfbf11541cf5f428f883622d1ffd25
+      internalID: -1362568257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_34
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae6b52292553524c8427e6e9221a864
+      internalID: -1564599567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_35
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 868
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295dd16e50d9b3b4d817e4a3937bc7c5
+      internalID: 377508847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9113a743998f4741a25f80dee3a3f0a
+      internalID: -31323196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_37
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea666238e09377241b44fd7a3161ba7a
+      internalID: -256722138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_38
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019916cf8f67e9142aab484c9f583afb
+      internalID: -718112933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_39
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fe5e668b8c6054da320af1b6617b14
+      internalID: -305342705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_40
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1395ebe5c9226e541a6bf7b286312cb7
+      internalID: -1816196812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_41
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0af0d9406bf914082736cb75aa02e7
+      internalID: -937423237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_42
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e35aabd138000d42981a3dbf1f75ed5
+      internalID: -795883707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_43
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e2570d80f6a784a959b0af8574fe4c
+      internalID: 1310296637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_44
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af51f8a454f86aa40871465854254e55
+      internalID: 1696653002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_45
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6857f14366096f44eab7d5f6f12368bc
+      internalID: 136835057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_46
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a49be2d56cfcf448668b081d79950a
+      internalID: 1375506260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_47
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c648a27b803cae7459ba90e91f50c644
+      internalID: -267228468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_48
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa30d69dbf3e4684a848c75a51dc9a5f
+      internalID: 2117314006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_49
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c7fef96bb5c254dafd5aa4c6255bb5
+      internalID: 1679055564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_50
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74305abf55446f447be184873ca3643e
+      internalID: -1021753074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_51
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15983cd88534d314dbb24a788ddcc866
+      internalID: 1019433940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_52
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93eb1a3d9b70fe24cb437fd8831b05d6
+      internalID: -4103064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_53
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 762
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab0c4afc6b3cd149b3b2d7d2e9a0da5
+      internalID: -2046760147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59b7d7a98bf45c46ba4faf951821865
+      internalID: 1264062244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_55
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e928b6b3851fe30478910df3d974b343
+      internalID: 685522256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_56
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbd849c1933f5940b1d2549ea11c900
+      internalID: -1421352624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_57
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30f3d88d101ab24c9bdc8895508655d
+      internalID: -70626536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_58
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aade2a576ce8b9745bfb3afafe40b16c
+      internalID: -308020414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_59
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9d2978fad44cd45988efcffd6863b5
+      internalID: 1327573686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_60
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9605640e67bbe5b4c9784e1645f298e8
+      internalID: -1719884725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_61
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d097a30a1bdddbf48bf2191128915c80
+      internalID: -1422816894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_62
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23414ee1623bd6e438df9867b310120d
+      internalID: -1395062904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_63
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4703d0bd55d9d39499b5ce19d4639c55
+      internalID: -1768399143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_64
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263e3d6d928e5ff40ae822e43d1fcf8c
+      internalID: -277395208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_65
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bd919b4328a4943a5a8817911cfbc8
+      internalID: 624076229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_66
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cabab69df7199442918b7249334cfaf
+      internalID: 1787339394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_67
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6fa9ede9aaddb429db05c0a1193f6a
+      internalID: 61346388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_68
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7832e80f4b2fc8b448e2699fd9b6c578
+      internalID: 1184630246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_69
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699ea1fcd56f3fd45b3319129d2ba468
+      internalID: 2036926835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_70
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89111326695bc8a4085c8f9dfb5d3514
+      internalID: 1280457057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_71
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 656
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff7fb6e2531da4e96967926020e822
+      internalID: 1879435125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146a9d063bebb9744a39c099cc1ee0c4
+      internalID: 1532627222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_73
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab84eb0756b0f74b95f5f344d110446
+      internalID: -1868105151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_74
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175178ae4c0eeea4799037f1c1f19f56
+      internalID: -1591518186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_75
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47948d7a28f437146940c136a6bc3e82
+      internalID: -1177920206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_76
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9305a724b9a1b6d419691f26543e3950
+      internalID: -1717577010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_77
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463048b6f2b038349b660af0bceae00b
+      internalID: 954933189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_78
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea54c02ecb42700418eab7d6e717ab7c
+      internalID: 1387256185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_79
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b11c507c26665348b697028d8f2b369
+      internalID: 2146947754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_80
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44271ae9a25f0c44ba4b12d55d74600c
+      internalID: -1333977124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_81
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467bd9bbe0a8f5a4c9eb45dd9142aef5
+      internalID: 1668167023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_82
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f56f24f5a8059747bc90871b99e3249
+      internalID: -652221706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_83
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002eb11a9c29a8a42a176ef572d7a48b
+      internalID: -77126516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_84
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0fd571bc51a584d80f2d79cb3f726d
+      internalID: -1413526832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_85
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ef44559e5466b42ba6bfbed4c5cf6c
+      internalID: 1502756587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_86
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27e162534a2a3547b958591ee64b0f2
+      internalID: 759711649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_87
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b61e115ab928784fb94aaefdd0e6e7a
+      internalID: 1410863570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_88
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4074b6d5e00590b4ebbefd5e3d1fadd3
+      internalID: 1982119695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_89
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 550
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c84615b9250374caf3dd59f1fd5e8f
+      internalID: -480754075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46e3ae31c61362438bb2a8af2a3ed63
+      internalID: -1707497977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_91
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71317b5c0e2ae1f428ae98dce710e666
+      internalID: 1388358295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_92
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808c1d8b32fa3af478956635abc9f62e
+      internalID: -1425365870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_93
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286a19892b37761469c1d62876fb4490
+      internalID: 1066300513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_94
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6c2608fae836844851eb1a597a4e7e
+      internalID: 1113865621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_95
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2890da284230044d94a9a6cf5dbc750
+      internalID: -1608155776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_96
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f161c89a593559240b1bfbfacbab7d20
+      internalID: -1072377126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_97
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f27e403fa38be4581c02e2fbd12dad
+      internalID: 355454276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_98
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b21c8100f30e44dac162a2032481f7
+      internalID: 269526202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_99
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed143c772edee9468e1097f81b9f801
+      internalID: -1630969689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_100
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415d3eda7b8649349b7b3c9122807ce0
+      internalID: 558952820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_101
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d639dc4b141cf8540a61ccaaa1d03b9e
+      internalID: 1156989810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_102
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25ee1a6ae7fe144c89bc7079717892c
+      internalID: -1293602183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_103
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646c276137314564f8db03ef8db8c436
+      internalID: 1973231622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_104
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98edb9c8f313c64dbdd2098989750a6
+      internalID: 79098732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_105
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaf2b4fac8b8804a8465b76601c57ef
+      internalID: -813445166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_106
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d778588e8954a5347aed5249065724f7
+      internalID: -475260414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_107
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 444
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a81ab53c9e0a834cab8b74b689362b1
+      internalID: -1690859762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce7f5fc73c2ee844a51cc8d53c91507
+      internalID: 1991037867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_109
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156dc8857607dcb488a571594dc1ec62
+      internalID: 2028322086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_110
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddca9baa815def4f86031f8e5ca1e75
+      internalID: -1317551936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_111
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528b33119cf7644469e63b756900a02f
+      internalID: 477958672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_112
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb875587174afc4b96b46975614a3d1
+      internalID: 1353010984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_113
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5913ed0c5b9bb4bb0d0549e1bc2e6e
+      internalID: 2056176795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_114
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08638935a6ea4894499e10e957aa861a
+      internalID: 1394933131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_115
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36986f7be761d024883a46ee14f5c260
+      internalID: -819753464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_116
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ae61e8cc04ec0419dcbecdc3aa52df
+      internalID: 516400773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_117
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c29c41693ffb9a499d29b338ca042b8
+      internalID: 382049669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_118
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c07755e570d4264b932889abc7ed5de
+      internalID: -2072670381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_119
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674446ad6c6bff64fb3e08d102bd6a59
+      internalID: 1917556635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_120
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d0becba2f86824abb0cde6ab1f6824
+      internalID: 1973380488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_121
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8f76604008084ca49eb666cfe4766
+      internalID: 1967984619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_122
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e0832286ee56a48a970b655b927132
+      internalID: -1469052900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_123
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05ab0ed78d6e6847922b9006a7856ba
+      internalID: -1318117618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_124
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dbf656f3548834faef857a230c20ae
+      internalID: -1540431411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_125
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 338
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd9eabd93a17bd44b7e9cdc8bb9d9bd
+      internalID: -516794429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895a42e92805e0a4f98f86f3d193cfb4
+      internalID: 1532885780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_127
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48feaa324824ba44ba16b36f347316fc
+      internalID: -1250153764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_128
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bcf2ac895381d40a3891acaa7b27ed
+      internalID: -738963950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_129
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707d7df2d30150f459745404814f7722
+      internalID: 1690780007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_130
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb515d1084ee368478061ce2ea392d48
+      internalID: -496669325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_131
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113478d80326ce049bb4e2010e8ffe05
+      internalID: 1620653840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_132
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d9791799b91734dbcc7f7093b9a8ad
+      internalID: 495168849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_133
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8b76a1d0746264e86f283c1828500c
+      internalID: 1930131121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_134
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036f6bb12112e8348837f1c7d6ffad81
+      internalID: 1541586087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_135
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ab1beab37782a4ea1f26f8db124331
+      internalID: -1586005564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_136
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c8240ee01281d44bcb97b1425789c6
+      internalID: -2063893556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_137
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fe825d99a77394383b8924e44ca1fa
+      internalID: 440728236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_138
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bd0d159bbd48e429bc5ac0a77870e4
+      internalID: 223632266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_139
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e42fcae06e694240b60b54f52f4dfb5
+      internalID: -2034854687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_140
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5096eba44d5bb645b8d2fca501b3a5a
+      internalID: -507285383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_141
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abfeed8a39cb85468efc41ab3063dbd
+      internalID: -1530324737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_142
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650cefaf79ed7d745916ed0c5429db0e
+      internalID: -1693143323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_143
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 232
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93b2c1cb5b95eb4c9a936a244e3731a
+      internalID: -372959471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d3cd91bb06887429b9f6bffacca680
+      internalID: 1815576079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_145
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189efd2f8aa09874891f8cf889be4511
+      internalID: 1549349181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_146
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bb21db24199d54e94a3255a9668fd3
+      internalID: -1930645668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_147
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60d7e9ae8cb88140a8692645b09f653
+      internalID: 1872974940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_148
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffca41488d2114c4cb27e2392f7b97c9
+      internalID: 1697766405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_149
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfd9a6494f1a524da9e64d96ba01a5c
+      internalID: 81950275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_150
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ed3bfbbf52b5b42a6156b343d9f6cd
+      internalID: -1463176585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_151
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed5e1dbe522c294cbfe5a3724ae5711
+      internalID: 954795428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_152
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf89a1b1119e1741bb1bf660633af7d
+      internalID: -1504671603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_153
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccfb74f9daeb684fbd6310444d2f6a2
+      internalID: 1376398454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_154
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9772df85080ef0d4f8334b686e6d80b4
+      internalID: 496145392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_155
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4aa724180997c44ca839334dd6bafb9
+      internalID: -1683278389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_156
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c7c88a080316c479bb2c584652784a
+      internalID: 1318889225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_157
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2b0182393be904c87b4a06f3d4a6ca
+      internalID: 1471461967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_158
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff4005feef32ba4fb571e62704c4dcb
+      internalID: 1030106992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_159
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a65f5257ca71c4fa703267cfcb4c43
+      internalID: 6554283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_160
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1773beec08298a040aed171aabe15abd
+      internalID: 1335667551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_161
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 126
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e581475770520b4f8d3e456c247d9d2
+      internalID: 327956639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b9a26ba322c4141904c65f91e33939
+      internalID: -1726739490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_163
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df72be37fd5cdd946bddacbbfa1e77d9
+      internalID: -740140105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_164
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfb772f059ab1f4ca0af4e384f8b7b7
+      internalID: -368924953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_165
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e5c13091fa6af4cac9ed92d0ac9bf4
+      internalID: -192736093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_166
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fe8983794c1774394e648ff6707141
+      internalID: 1650916143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_167
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c0ade8e42dad9449050d5e37dc534c
+      internalID: -1415729565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_168
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc2b88823d5f564f8e29552b9ce9e3f
+      internalID: -1035917612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_169
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16974544eeaeb7d4f9acf951e41f572e
+      internalID: -1890310634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_170
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0265b5086a8da7b499f8e493ca59649a
+      internalID: 874289607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_171
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6a008fb0e5234dbc82036048a3f7b
+      internalID: 762885492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_172
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa8cd53d59403249a7066e104b21d3b
+      internalID: 377892597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_173
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b226f0356e8a8ec4b88693a28250163e
+      internalID: 2048170638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_174
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616d48070704d5542bb372dcda5d580e
+      internalID: 499548537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_175
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b96d6b93c200c4fad019613e7c3921
+      internalID: -1689178363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_176
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8382cbaa5658345ab908fb8e1520af
+      internalID: -964240995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_177
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac376fbfa9e02a4ebecff782fa84d76
+      internalID: -1888692007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_178
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349077506c075e4fb0f6a0702ff861f
+      internalID: -895272935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuage_milieu_179
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 20
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129a81835a59fa4459e7d2246d9292fd
+      internalID: -1721197809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +3886,187 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      nuage_milieu_0: 227724034
+      nuage_milieu_1: -386862011
+      nuage_milieu_10: -904215082
+      nuage_milieu_100: 558952820
+      nuage_milieu_101: 1156989810
+      nuage_milieu_102: -1293602183
+      nuage_milieu_103: 1973231622
+      nuage_milieu_104: 79098732
+      nuage_milieu_105: -813445166
+      nuage_milieu_106: -475260414
+      nuage_milieu_107: -1690859762
+      nuage_milieu_108: 1991037867
+      nuage_milieu_109: 2028322086
+      nuage_milieu_11: -512966645
+      nuage_milieu_110: -1317551936
+      nuage_milieu_111: 477958672
+      nuage_milieu_112: 1353010984
+      nuage_milieu_113: 2056176795
+      nuage_milieu_114: 1394933131
+      nuage_milieu_115: -819753464
+      nuage_milieu_116: 516400773
+      nuage_milieu_117: 382049669
+      nuage_milieu_118: -2072670381
+      nuage_milieu_119: 1917556635
+      nuage_milieu_12: 963530448
+      nuage_milieu_120: 1973380488
+      nuage_milieu_121: 1967984619
+      nuage_milieu_122: -1469052900
+      nuage_milieu_123: -1318117618
+      nuage_milieu_124: -1540431411
+      nuage_milieu_125: -516794429
+      nuage_milieu_126: 1532885780
+      nuage_milieu_127: -1250153764
+      nuage_milieu_128: -738963950
+      nuage_milieu_129: 1690780007
+      nuage_milieu_13: 1212897124
+      nuage_milieu_130: -496669325
+      nuage_milieu_131: 1620653840
+      nuage_milieu_132: 495168849
+      nuage_milieu_133: 1930131121
+      nuage_milieu_134: 1541586087
+      nuage_milieu_135: -1586005564
+      nuage_milieu_136: -2063893556
+      nuage_milieu_137: 440728236
+      nuage_milieu_138: 223632266
+      nuage_milieu_139: -2034854687
+      nuage_milieu_14: -200037043
+      nuage_milieu_140: -507285383
+      nuage_milieu_141: -1530324737
+      nuage_milieu_142: -1693143323
+      nuage_milieu_143: -372959471
+      nuage_milieu_144: 1815576079
+      nuage_milieu_145: 1549349181
+      nuage_milieu_146: -1930645668
+      nuage_milieu_147: 1872974940
+      nuage_milieu_148: 1697766405
+      nuage_milieu_149: 81950275
+      nuage_milieu_15: 1357408616
+      nuage_milieu_150: -1463176585
+      nuage_milieu_151: 954795428
+      nuage_milieu_152: -1504671603
+      nuage_milieu_153: 1376398454
+      nuage_milieu_154: 496145392
+      nuage_milieu_155: -1683278389
+      nuage_milieu_156: 1318889225
+      nuage_milieu_157: 1471461967
+      nuage_milieu_158: 1030106992
+      nuage_milieu_159: 6554283
+      nuage_milieu_16: 985603729
+      nuage_milieu_160: 1335667551
+      nuage_milieu_161: 327956639
+      nuage_milieu_162: -1726739490
+      nuage_milieu_163: -740140105
+      nuage_milieu_164: -368924953
+      nuage_milieu_165: -192736093
+      nuage_milieu_166: 1650916143
+      nuage_milieu_167: -1415729565
+      nuage_milieu_168: -1035917612
+      nuage_milieu_169: -1890310634
+      nuage_milieu_17: -1532824315
+      nuage_milieu_170: 874289607
+      nuage_milieu_171: 762885492
+      nuage_milieu_172: 377892597
+      nuage_milieu_173: 2048170638
+      nuage_milieu_174: 499548537
+      nuage_milieu_175: -1689178363
+      nuage_milieu_176: -964240995
+      nuage_milieu_177: -1888692007
+      nuage_milieu_178: -895272935
+      nuage_milieu_179: -1721197809
+      nuage_milieu_18: -1855403834
+      nuage_milieu_19: -1786428250
+      nuage_milieu_2: 1820212045
+      nuage_milieu_20: -1511745888
+      nuage_milieu_21: 1124019504
+      nuage_milieu_22: 1604164079
+      nuage_milieu_23: 1799488070
+      nuage_milieu_24: -1490945239
+      nuage_milieu_25: -226262764
+      nuage_milieu_26: 2288635
+      nuage_milieu_27: -1268256051
+      nuage_milieu_28: 1761451584
+      nuage_milieu_29: 1258281126
+      nuage_milieu_3: 1535405609
+      nuage_milieu_30: 965951933
+      nuage_milieu_31: 434047529
+      nuage_milieu_32: 1135893621
+      nuage_milieu_33: -1362568257
+      nuage_milieu_34: -1564599567
+      nuage_milieu_35: 377508847
+      nuage_milieu_36: -31323196
+      nuage_milieu_37: -256722138
+      nuage_milieu_38: -718112933
+      nuage_milieu_39: -305342705
+      nuage_milieu_4: 476121465
+      nuage_milieu_40: -1816196812
+      nuage_milieu_41: -937423237
+      nuage_milieu_42: -795883707
+      nuage_milieu_43: 1310296637
+      nuage_milieu_44: 1696653002
+      nuage_milieu_45: 136835057
+      nuage_milieu_46: 1375506260
+      nuage_milieu_47: -267228468
+      nuage_milieu_48: 2117314006
+      nuage_milieu_49: 1679055564
+      nuage_milieu_5: 874721577
+      nuage_milieu_50: -1021753074
+      nuage_milieu_51: 1019433940
+      nuage_milieu_52: -4103064
+      nuage_milieu_53: -2046760147
+      nuage_milieu_54: 1264062244
+      nuage_milieu_55: 685522256
+      nuage_milieu_56: -1421352624
+      nuage_milieu_57: -70626536
+      nuage_milieu_58: -308020414
+      nuage_milieu_59: 1327573686
+      nuage_milieu_6: -646366154
+      nuage_milieu_60: -1719884725
+      nuage_milieu_61: -1422816894
+      nuage_milieu_62: -1395062904
+      nuage_milieu_63: -1768399143
+      nuage_milieu_64: -277395208
+      nuage_milieu_65: 624076229
+      nuage_milieu_66: 1787339394
+      nuage_milieu_67: 61346388
+      nuage_milieu_68: 1184630246
+      nuage_milieu_69: 2036926835
+      nuage_milieu_7: 421473794
+      nuage_milieu_70: 1280457057
+      nuage_milieu_71: 1879435125
+      nuage_milieu_72: 1532627222
+      nuage_milieu_73: -1868105151
+      nuage_milieu_74: -1591518186
+      nuage_milieu_75: -1177920206
+      nuage_milieu_76: -1717577010
+      nuage_milieu_77: 954933189
+      nuage_milieu_78: 1387256185
+      nuage_milieu_79: 2146947754
+      nuage_milieu_8: -1558025128
+      nuage_milieu_80: -1333977124
+      nuage_milieu_81: 1668167023
+      nuage_milieu_82: -652221706
+      nuage_milieu_83: -77126516
+      nuage_milieu_84: -1413526832
+      nuage_milieu_85: 1502756587
+      nuage_milieu_86: 759711649
+      nuage_milieu_87: 1410863570
+      nuage_milieu_88: 1982119695
+      nuage_milieu_89: -480754075
+      nuage_milieu_9: -33676657
+      nuage_milieu_90: -1707497977
+      nuage_milieu_91: 1388358295
+      nuage_milieu_92: -1425365870
+      nuage_milieu_93: 1066300513
+      nuage_milieu_94: 1113865621
+      nuage_milieu_95: -1608155776
+      nuage_milieu_96: -1072377126
+      nuage_milieu_97: 355454276
+      nuage_milieu_98: 269526202
+      nuage_milieu_99: -1630969689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

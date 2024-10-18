@@ -1,5 +1,6 @@
-using UnityEngine;
+using System;
 using System.Collections;
+using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
@@ -8,21 +9,36 @@ public class Spawner : MonoBehaviour
     public float spawnDelay = 1f;  // Délai avant le spawn (1 seconde)
     public float moveSpeed = 2f;  // Vitesse de déplacement de l'ennemi
 
+    public int maxInvokeDelay = 25;
+    public int minInvokeDelay = 20;
+
     private GameObject attentionSign;  // Référence à l'instance du panneau d'attention
 
     void Start()
     {
+        InvokeRepeating("StartSpawnEnemy", 0f, UnityEngine.Random.Range(minInvokeDelay, maxInvokeDelay));
+    }
+
+    void Update()
+    {
+        
+    }
+
+    void StartSpawnEnemy()
+    {
+        // Lancer la coroutine de spawn de l'ennemi
         StartCoroutine(SpawnEnemy());
     }
 
     IEnumerator SpawnEnemy()
     {
-        Vector3 spawnPosition = new Vector3(transform.position.x + 2, transform.position.y, transform.position.z);
+        Vector3 spawnPosition = new Vector3(transform.position.x + 2, transform.position.y, transform.position.z + 5);
         attentionSign = Instantiate(attentionSignPrefab, spawnPosition, Quaternion.identity);
 
         yield return new WaitForSeconds(spawnDelay);
         Destroy(attentionSign);
-        GameObject spawnedEnemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+        Vector3 spawnPositionEnemy = new Vector3(transform.position.x, transform.position.y, transform.position.z + 5);
+        GameObject spawnedEnemy = Instantiate(enemyPrefab, spawnPositionEnemy, Quaternion.identity);
 
         StartCoroutine(MoveEnemy(spawnedEnemy));
     }

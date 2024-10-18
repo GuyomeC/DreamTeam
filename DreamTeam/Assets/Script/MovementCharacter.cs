@@ -85,6 +85,41 @@ public class MovementCharacter : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Bird"))
+        {
+            Vector3Int newGridPosition = playerGridPosition;
+            newGridPosition += new Vector3Int(1, 0, 0);
+            TileBase tileAtNewPosition = tilemap.GetTile(newGridPosition);
+
+            if (tileAtNewPosition != null)
+            {
+                Vector3 newWorldPosition = tilemap.CellToWorld(newGridPosition);
+                transform.position = newWorldPosition;
+                playerGridPosition = newGridPosition;
+            }
+            else
+            {
+                tileAtNewPosition = cloudtilemap.GetTile(newGridPosition);
+
+                if (tileAtNewPosition != null)
+                {
+                    Vector3 newWorldPosition = cloudtilemap.CellToWorld(newGridPosition);
+                    transform.position = newWorldPosition;
+                    playerGridPosition = newGridPosition;
+                }
+                else
+                {
+                    Debug.Log("Tuile non traversable ou inexistante !");
+                    MoveToNewPosition(tilemap, newGridPosition);
+                    StartCoroutine(DestroyAfterDelay());
+                }
+            }
+            Destroy(other.gameObject);
+        }
+    }
+
     void MoveToNewPosition(Tilemap map, Vector3Int newGridPosition)
     {
         // Convertir la position de la grille en position du monde
