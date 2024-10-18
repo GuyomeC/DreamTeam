@@ -16,6 +16,7 @@ public class MovementCharacter : MonoBehaviour
     public float moveSpeed = 5f;  // Vitesse de déplacement
     public Vector3Int playerGridPosition;  // Position du joueur dans la grille
     public float destructionDelay = 1f;
+    public bool IsAlive = true;
 
     private void Awake()
     {
@@ -198,5 +199,7 @@ public class MovementCharacter : MonoBehaviour
 
         // Détruire le joueur
         Destroy(gameObject);
+        GameManager.Instance.IsPlaying = false;
+        IsAlive = false;
     }
 }

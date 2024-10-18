@@ -16,6 +16,7 @@ public class AutoScrollCamera : MonoBehaviour
         }
 
         transform.position = newPosition;
+        scrollSpeed += Time.deltaTime / 10;
     }
 }
 

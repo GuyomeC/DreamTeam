@@ -10,11 +10,6 @@ public class PlayerOnPlatform : MonoBehaviour
         originalParent = transform.parent;
     }
 
-    private void Update()
-    {
-        originalParent = transform.parent;
-
-    }
 
     // Lorsque le personnage entre en contact avec la plateforme
     void OnCollisionEnter2D(Collision2D collision)

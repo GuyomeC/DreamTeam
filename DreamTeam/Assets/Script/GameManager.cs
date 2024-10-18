@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class GameManager : MonoBehaviour
@@ -41,10 +42,10 @@ public class GameManager : MonoBehaviour
         {
             currentScore += Time.deltaTime;
         }
-        else
+        else if(!MovementCharacter.Instance.IsAlive && !IsPlaying)
         {
-            bestScore = currentScore;
             currentScore = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

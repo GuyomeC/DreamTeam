@@ -24,40 +24,29 @@ public class MovingPlatforms : MonoBehaviour
     void Update()
     {
 
-        Vector3Int gridPosition = MovementCharacter.Instance.playerGridPosition;
 
         if (movingRight)
         {
-            if (IsOdd(gridPosition.y)) 
-                transform.position += Vector3.right * speed * Time.deltaTime;
-            else  // Si on veut inverser, bouger à gauche
-                transform.position += Vector3.left * speed * Time.deltaTime;
+            transform.position += Vector3.right * speed * Time.deltaTime;
 
             // Inverser si limite atteinte
-            if (transform.position.x >= limiteDroitePosition.x || transform.position.x <= limiteGauchePosition.x)
+            if (transform.position.x >= limiteDroitePosition.x)
             {
                 movingRight = false;
             }
         }
         else
         {
-            if (!IsOdd(gridPosition.y))  // Si on ne veut pas inverser
-                transform.position += Vector3.left * speed * Time.deltaTime;
-            else  // Si on veut inverser, bouger à droite
-                transform.position += Vector3.right * speed * Time.deltaTime;
+            transform.position += Vector3.left * speed * Time.deltaTime;
 
             // Inverser si limite atteinte
-            if (transform.position.x <= limiteGauchePosition.x || transform.position.x >= limiteDroitePosition.x)
+            if (transform.position.x <= limiteGauchePosition.x)
             {
                 movingRight = true;
             }
         }
     }
 
-    private bool IsOdd(int value)
-    {
-        return value % 2 != 0;
-    }
 
     //Cette fonction sert a visualiser le chemin de l'ennemi dans l'éditeur
     void OnDrawGizmos()
